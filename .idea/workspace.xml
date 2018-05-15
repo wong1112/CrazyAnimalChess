@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8a5f2f0-9a4e-434e-83da-b0b25fe79c23" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dou_shou_qi_board.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/instructions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_leopard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_lion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_tiger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_wolf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_leopard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_lion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_tiger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_wolf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ChessBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ChessPiece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/BoardPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/InvisibleButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/package-info.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DrawBasic">
+    <configuration name="DrawBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eg_draw.DrawBasic" />
+      <module name="CrazyAnimalChess" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eg_draw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game" />
+      <module name="CrazyAnimalChess" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Game" />
+      <item itemvalue="Application.DrawBasic" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DrawBasic" />
+        <item itemvalue="Application.Game" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8a5f2f0-9a4e-434e-83da-b0b25fe79c23" name="Default" comment="" />
+      <created>1524048873586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524048873586</updated>
+      <workItem from="1524048875397" duration="424000" />
+      <workItem from="1524451296871" duration="463000" />
+      <workItem from="1525584507538" duration="72000" />
+      <workItem from="1525595980326" duration="77000" />
+      <workItem from="1525597263047" duration="604000" />
+      <workItem from="1525599904894" duration="230000" />
+      <workItem from="1525608145255" duration="88000" />
+      <workItem from="1525617459562" duration="548000" />
+      <workItem from="1525662788190" duration="293000" />
+      <workItem from="1526387552431" duration="48000" />
+    </task>
+    <task id="LOCAL-00001" summary="* 新建项目">
+      <created>1524049050824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524049050825</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2847000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3296593" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296593" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="* 新建项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="* 新建项目" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="322.0" y="370.0">com</node>
+            <node x="194.0" y="148.0">controller</node>
+            <node x="0.0" y="222.0">images</node>
+            <node x="385.0" y="148.0">netscape</node>
+            <node x="0.0" y="296.0">oracle</node>
+            <node x="311.0" y="444.0">org</node>
+            <node x="278.0" y="0.0">toolbarButtonGraphics</node>
+            <node x="156.0" y="444.0">sun</node>
+            <node x="0.0" y="148.0">META-INF</node>
+            <node x="0.0" y="518.0">jdk</node>
+            <node x="337.0" y="296.0">apple</node>
+            <node x="163.0" y="370.0">view</node>
+            <node x="233.0" y="74.0">groovyjarjarasm</node>
+            <node x="0.0" y="444.0">java</node>
+            <node x="175.0" y="222.0">groovy</node>
+            <node x="150.0" y="518.0">Game</node>
+            <node x="0.0" y="370.0">javax</node>
+            <node x="350.0" y="222.0">model</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="169.0" y="296.0">javafx</node>
+            <node x="0.0" y="74.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8465608465608465" x="264.0" y="274.0" />
+          <SelectedNodes>
+            <node>netscape</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/wong1112/Documents/Github/CrazyAnimalChess/src/model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/model</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">model.ChessBoard</node>
+            <node x="686.0" y="0.0">model.Animal</node>
+            <node x="404.0" y="0.0">model.ChessPiece</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5411499436302142" x="396.0" y="434.0" />
+          <SelectedNodes>
+            <node>model.ChessBoard</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model.ChessPiece">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model.ChessPiece</OriginalElement>
+          <nodes>
+            <node x="0.0" y="79.0">model.ChessPiece</node>
+            <node x="31.5" y="0.0">java.lang.Comparable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="model.ChessPiece" target="java.lang.Comparable">
+              <point x="0.0" y="-80.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="120.0" />
+          <SelectedNodes>
+            <node>model.ChessPiece</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Game">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Game</OriginalElement>
+          <nodes>
+            <node x="9.0" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="0.0" y="180.0">Game</node>
+            <node x="27.5" y="79.0">java.lang.Runnable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Game" target="java.lang.Runnable">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="127.0" />
+          <SelectedNodes>
+            <node>Game</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/view.GUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>view.GUI</OriginalElement>
+          <nodes>
+            <node x="395.48333333333335" y="237.0">javax.swing.JComponent</node>
+            <node x="777.75" y="316.0">java.lang.SuppressWarnings</node>
+            <node x="751.5" y="395.0">view.GUI</node>
+            <node x="633.5" y="158.0">java.beans.JavaBean</node>
+            <node x="419.5" y="158.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="160.0" y="0.0">java.awt.MenuContainer</node>
+            <node x="177.0" y="158.0">java.awt.Container</node>
+            <node x="724.25" y="237.0">javax.accessibility.Accessible</node>
+            <node x="171.0" y="79.0">java.awt.Component</node>
+            <node x="0.0" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="669.75" y="316.0">javax.swing.JPanel</node>
+            <node x="322.0" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
+              <point x="-29.333333333333314" y="-14.5" />
+              <point x="684.4166666666667" y="291.0" />
+              <point x="458.98333333333335" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="15.875" y="-14.5" />
+              <point x="474.85833333333335" y="207.0" />
+              <point x="516.5" y="207.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.awt.Container">
+              <point x="-47.625" y="-14.5" />
+              <point x="411.35833333333335" y="217.0" />
+              <point x="231.0" y="217.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="view.GUI" target="javax.swing.JPanel">
+              <point x="-17.75" y="-14.5" />
+              <point x="769.25" y="370.0" />
+              <point x="713.75" y="370.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
+              <point x="29.333333333333314" y="-14.5" />
+              <point x="743.0833333333334" y="291.0" />
+              <point x="780.75" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="java.beans.JavaBean">
+              <point x="0.0" y="-14.5" />
+              <point x="26.75" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="-40.0" y="-14.5" />
+              <point x="191.0" y="54.0" />
+              <point x="70.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="40.0" y="-14.5" />
+              <point x="271.0" y="54.0" />
+              <point x="351.0" y="54.0" />
+              <point x="-29.0" y="14.5" />
+            </edge>
+            <edge source="view.GUI" target="java.lang.SuppressWarnings">
+              <point x="17.75" y="-14.5" />
+              <point x="804.75" y="370.0" />
+              <point x="860.25" y="370.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.beans.JavaBean">
+              <point x="47.625" y="-14.5" />
+              <point x="506.60833333333335" y="217.0" />
+              <point x="660.25" y="217.0" />
+              <point x="-26.75" y="14.5" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.io.Serializable">
+              <point x="-15.875" y="-14.5" />
+              <point x="443.10833333333335" y="207.0" />
+              <point x="409.0" y="207.0" />
+              <point x="29.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4984423676012461" x="472.0" y="212.0" />
+          <SelectedNodes>
+            <node>view.GUI</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model.Animal">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model.Animal</OriginalElement>
+          <nodes>
+            <node x="56.25" y="79.0">java.lang.Enum</node>
+            <node x="74.25" y="202.0">model.Animal</node>
+            <node x="136.0" y="0.0">java.lang.Comparable</node>
+            <node x="0.0" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.lang.Enum" target="java.io.Serializable">
+              <point x="-35.5" y="-36.5" />
+              <point x="91.75" y="54.0" />
+              <point x="58.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.lang.Comparable">
+              <point x="35.5" y="-36.5" />
+              <point x="162.75" y="54.0" />
+              <point x="196.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="model.Animal" target="java.lang.Enum">
+              <point x="0.0" y="-102.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="129.0" y="204.0" />
+          <SelectedNodes>
+            <node>model.Animal</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/controller.Controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>controller.Controller</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">controller.Controller</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="507.0" y="380.0" />
+          <SelectedNodes>
+            <node>controller.Controller</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/ChessPiece.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/GUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/InvisibleButton.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Animal.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/ChessPiece.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Animal.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/GUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/ChessPiece.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Animal.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/GUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/InvisibleButton.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
+    <entry file="uml://JAVA/model.Animal">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model.Animal</OriginalElement>
+          <nodes>
+            <node x="56.25" y="79.0">java.lang.Enum</node>
+            <node x="74.25" y="202.0">model.Animal</node>
+            <node x="136.0" y="0.0">java.lang.Comparable</node>
+            <node x="0.0" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.lang.Enum" target="java.io.Serializable">
+              <point x="-35.5" y="-36.5" />
+              <point x="91.75" y="54.0" />
+              <point x="58.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.lang.Comparable">
+              <point x="35.5" y="-36.5" />
+              <point x="162.75" y="54.0" />
+              <point x="196.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="model.Animal" target="java.lang.Enum">
+              <point x="0.0" y="-102.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="129.0" y="204.0" />
+          <SelectedNodes>
+            <node>model.Animal</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="322.0" y="370.0">com</node>
+            <node x="194.0" y="148.0">controller</node>
+            <node x="0.0" y="222.0">images</node>
+            <node x="385.0" y="148.0">netscape</node>
+            <node x="0.0" y="296.0">oracle</node>
+            <node x="311.0" y="444.0">org</node>
+            <node x="278.0" y="0.0">toolbarButtonGraphics</node>
+            <node x="156.0" y="444.0">sun</node>
+            <node x="0.0" y="148.0">META-INF</node>
+            <node x="0.0" y="518.0">jdk</node>
+            <node x="337.0" y="296.0">apple</node>
+            <node x="163.0" y="370.0">view</node>
+            <node x="233.0" y="74.0">groovyjarjarasm</node>
+            <node x="0.0" y="444.0">java</node>
+            <node x="175.0" y="222.0">groovy</node>
+            <node x="150.0" y="518.0">Game</node>
+            <node x="0.0" y="370.0">javax</node>
+            <node x="350.0" y="222.0">model</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="169.0" y="296.0">javafx</node>
+            <node x="0.0" y="74.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8465608465608465" x="264.0" y="274.0" />
+          <SelectedNodes>
+            <node>netscape</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/wong1112/Documents/Github/CrazyAnimalChess/src/model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/model</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">model.ChessBoard</node>
+            <node x="686.0" y="0.0">model.Animal</node>
+            <node x="404.0" y="0.0">model.ChessPiece</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5411499436302142" x="396.0" y="434.0" />
+          <SelectedNodes>
+            <node>model.ChessBoard</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model.ChessPiece">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model.ChessPiece</OriginalElement>
+          <nodes>
+            <node x="0.0" y="79.0">model.ChessPiece</node>
+            <node x="31.5" y="0.0">java.lang.Comparable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="model.ChessPiece" target="java.lang.Comparable">
+              <point x="0.0" y="-80.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="120.0" />
+          <SelectedNodes>
+            <node>model.ChessPiece</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Game">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Game</OriginalElement>
+          <nodes>
+            <node x="9.0" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="0.0" y="180.0">Game</node>
+            <node x="27.5" y="79.0">java.lang.Runnable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="Game" target="java.lang.Runnable">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="127.0" />
+          <SelectedNodes>
+            <node>Game</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/view.GUI">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>view.GUI</OriginalElement>
+          <nodes>
+            <node x="395.48333333333335" y="237.0">javax.swing.JComponent</node>
+            <node x="777.75" y="316.0">java.lang.SuppressWarnings</node>
+            <node x="751.5" y="395.0">view.GUI</node>
+            <node x="633.5" y="158.0">java.beans.JavaBean</node>
+            <node x="419.5" y="158.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="160.0" y="0.0">java.awt.MenuContainer</node>
+            <node x="177.0" y="158.0">java.awt.Container</node>
+            <node x="724.25" y="237.0">javax.accessibility.Accessible</node>
+            <node x="171.0" y="79.0">java.awt.Component</node>
+            <node x="0.0" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="669.75" y="316.0">javax.swing.JPanel</node>
+            <node x="322.0" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
+              <point x="-29.333333333333314" y="-14.5" />
+              <point x="684.4166666666667" y="291.0" />
+              <point x="458.98333333333335" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="15.875" y="-14.5" />
+              <point x="474.85833333333335" y="207.0" />
+              <point x="516.5" y="207.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.awt.Container">
+              <point x="-47.625" y="-14.5" />
+              <point x="411.35833333333335" y="217.0" />
+              <point x="231.0" y="217.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="view.GUI" target="javax.swing.JPanel">
+              <point x="-17.75" y="-14.5" />
+              <point x="769.25" y="370.0" />
+              <point x="713.75" y="370.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
+              <point x="29.333333333333314" y="-14.5" />
+              <point x="743.0833333333334" y="291.0" />
+              <point x="780.75" y="291.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JPanel" target="java.beans.JavaBean">
+              <point x="0.0" y="-14.5" />
+              <point x="26.75" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="-40.0" y="-14.5" />
+              <point x="191.0" y="54.0" />
+              <point x="70.0" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="40.0" y="-14.5" />
+              <point x="271.0" y="54.0" />
+              <point x="351.0" y="54.0" />
+              <point x="-29.0" y="14.5" />
+            </edge>
+            <edge source="view.GUI" target="java.lang.SuppressWarnings">
+              <point x="17.75" y="-14.5" />
+              <point x="804.75" y="370.0" />
+              <point x="860.25" y="370.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.beans.JavaBean">
+              <point x="47.625" y="-14.5" />
+              <point x="506.60833333333335" y="217.0" />
+              <point x="660.25" y="217.0" />
+              <point x="-26.75" y="14.5" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="javax.swing.JComponent" target="java.io.Serializable">
+              <point x="-15.875" y="-14.5" />
+              <point x="443.10833333333335" y="207.0" />
+              <point x="409.0" y="207.0" />
+              <point x="29.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4984423676012461" x="472.0" y="212.0" />
+          <SelectedNodes>
+            <node>view.GUI</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/controller.Controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>controller.Controller</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">controller.Controller</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="507.0" y="380.0" />
+          <SelectedNodes>
+            <node>controller.Controller</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model.ChessBoard">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model.ChessBoard</OriginalElement>
+          <nodes>
+            <node x="0.0" y="1714.0">controller.Controller</node>
+            <node x="358.1394736842106" y="1259.0">view.BoardPanel</node>
+            <node x="164.68750000000003" y="342.0">model.ChessBoard</node>
+            <node x="169.7019736842106" y="2190.0">view.GUI</node>
+            <node x="176.50460526315794" y="0.0">model.ChessPiece</node>
+            <node x="31.400438596491256" y="1425.0">controller.Controller.Mode</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="view.BoardPanel" target="model.ChessBoard">
+              <point x="-33.25" y="-202.5" />
+              <point x="457.8894736842106" y="1234.0" />
+              <point x="478.8125" y="1234.0" />
+              <point x="134.625" y="433.5" />
+            </edge>
+            <edge source="view.GUI" target="model.ChessBoard">
+              <point x="0.0" y="-180.0" />
+              <point x="288.7019736842106" y="2170.0" />
+              <point x="298.50000000000006" y="2170.0" />
+              <point x="-44.875" y="433.5" />
+            </edge>
+            <edge source="view.BoardPanel" target="model.ChessPiece">
+              <point x="99.75" y="-202.5" />
+              <point x="590.8894736842105" y="1234.0" />
+              <point x="545.1875" y="1234.0" />
+              <point x="545.1875" y="292.0" />
+              <point x="398.69210526315794" y="292.0" />
+              <point x="103.6875" y="136.0" />
+            </edge>
+            <edge source="view.GUI" target="controller.Controller">
+              <point x="-47.599999999999966" y="-180.0" />
+              <point x="241.10197368421063" y="2170.0" />
+              <point x="216.0" y="2170.0" />
+              <point x="72.0" y="213.0" />
+            </edge>
+            <edge source="view.GUI" target="view.BoardPanel">
+              <point x="95.19999999999999" y="-180.0" />
+              <point x="383.9019736842106" y="2170.0" />
+              <point x="556.5728070175439" y="2170.0" />
+              <point x="556.5728070175439" y="1694.0" />
+              <point x="590.8894736842105" y="1694.0" />
+              <point x="99.75" y="202.5" />
+            </edge>
+            <edge source="controller.Controller" target="view.BoardPanel">
+              <point x="96.0" y="-213.0" />
+              <point x="240.0" y="1684.0" />
+              <point x="391.3894736842106" y="1684.0" />
+              <point x="-99.75" y="202.5" />
+            </edge>
+            <edge source="controller.Controller" target="model.ChessBoard">
+              <point x="64.0" y="-213.0" />
+              <point x="208.0" y="1694.0" />
+              <point x="209.18750000000003" y="1694.0" />
+              <point x="-134.625" y="433.5" />
+            </edge>
+            <edge source="controller.Controller" target="controller.Controller.Mode">
+              <point x="-96.0" y="-213.0" />
+              <point x="48.0" y="1694.0" />
+              <point x="74.40043859649126" y="1694.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="controller.Controller.Mode" target="controller.Controller">
+              <point x="28.666666666666686" y="36.5" />
+              <point x="103.06710526315794" y="1694.0" />
+              <point x="80.0" y="1694.0" />
+              <point x="-64.0" y="-213.0" />
+            </edge>
+            <edge source="controller.Controller" target="model.ChessPiece">
+              <point x="32.0" y="-213.0" />
+              <point x="176.0" y="1694.0" />
+              <point x="149.90043859649126" y="1694.0" />
+              <point x="149.90043859649126" y="312.0" />
+              <point x="250.56710526315794" y="312.0" />
+              <point x="-44.4375" y="136.0" />
+            </edge>
+            <edge source="model.ChessBoard" target="model.ChessPiece">
+              <point x="0.0" y="-433.5" />
+              <point x="344.1875" y="322.0" />
+              <point x="309.81710526315794" y="322.0" />
+              <point x="14.8125" y="136.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.3666666666666667" x="300.0" y="1280.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
