@@ -39,22 +39,43 @@ public class MainPage {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();//点击按钮时frame1销毁,new一个frame2
-                new DrawBasic();
+                new pvp();
             }
         });//加入事件监听
-        jButton_1.setBounds(500,400,100,50);
+        jButton_1.setBounds(600,350,100,50);
         panel.add(jButton_1);
 
+        JButton jButton_3 = new JButton("机器人对战");
+        jButton_3.setBounds(700,350,100,50);
+        jButton_3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+                new pve();
+            }
+        });
+        panel.add(jButton_3);
 
         JButton jButton_2 = new JButton("联网对战");
-        jButton_2.setBounds(650,400,100,50);
+        jButton_2.setBounds(600,400,100,50);
         jButton_2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                frame.setVisible(false);//点击按钮时frame1销毁,new一个frame2
-                new DrawBasic();
+                frame.dispose();//点击按钮时frame1销毁,new一个frame2
+                new lan();
             }
         });//加入事件监听
         panel.add(jButton_2);
+
+        JButton jButton_4 = new JButton("退出");
+        jButton_4.setBounds(700,400,100,50);
+        jButton_4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();//点击按钮时frame1销毁,new一个frame2
+
+            }
+        });//加入事件监听
+        panel.add(jButton_4);
     }
 }

@@ -3,7 +3,6 @@ import java.awt.*;
 import java.util.*;
 import java.awt.event.*;
 import java.io.IOException;
-
 import javax.swing.*;
 import javax.imageio.*;
 public class DrawBasic extends JFrame{
@@ -20,6 +19,7 @@ public class DrawBasic extends JFrame{
 	private chesspiece AIchess;
 	private Point AIpoint;
 	public int cnt;                   //记录当前走棋的队伍
+    public  String str;
 	private String curmode;       //当前游戏模式
 	JMenuBar menuBar;
 	JMenu menu,pvc,help;
@@ -29,7 +29,11 @@ public class DrawBasic extends JFrame{
 	chesspiece chess[] = new chesspiece[16];
 	JLabel redWin,blueWin;
 	JLabel conside;
-	class undoUnit           //撤销一次移动操作的数据单元
+	JTextArea jta=null;
+    JPanel panelOutput;
+    JLabel playingnow;
+
+    class undoUnit           //撤销一次移动操作的数据单元
 	{
 		public chesspiece movechess, deadchess;   //在一次移动操作中移动的棋子，死去的棋子以及目标移动点，用于撤销一次移动操作
 		public Point frompoint,topoint;
@@ -82,7 +86,7 @@ public class DrawBasic extends JFrame{
 				if (curmode == mode[1])
 				{	
 					undo(head);
-					head.movechess.setLocation(head.frompoint.y1+50-(head.movechess.ima.getIconWidth())/2, 
+					head.movechess.setLocation(head.frompoint.y1+50-(head.movechess.ima.getIconWidth())/2,
 							head.frompoint.x1+50-(head.movechess.ima.getIconHeight())/2);
 					jd.setVisible(false);
 					if (head.deadchess != null)
@@ -147,12 +151,12 @@ public class DrawBasic extends JFrame{
 	}
 	DrawBasic()
 	{
-		super.setTitle("斗兽棋1.0.0");
+		super.setTitle("斗兽棋");
 		this.setLocation(580,200);
 	
     	this.setLayout(null);
     	backgroundInit();
-	
+
 //		chessInit();
     	switchListener = 1;
 		this.setSize(996+550, 993);
@@ -161,6 +165,8 @@ public class DrawBasic extends JFrame{
 		this.setVisible(true);
 		this.setResizable(false);         //设置窗口大小不可改变
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
 		
 	}
 	
@@ -177,7 +183,7 @@ public class DrawBasic extends JFrame{
 		chess.point = point;
 		point.chess = chess;
 	}
-	
+
 	void chessInit()         //棋子和棋盘坐标初始化的方法
 	{
 		cnt = 0;
@@ -185,7 +191,7 @@ public class DrawBasic extends JFrame{
 		for (int i = 1; i < 10; i++)         //为棋盘上的点赋初值
 		{
 			for (int j = 1; j < 8; j++)
-			
+
 			{
 				if ((i >= 4 && i<= 6) && ((j >= 2 && j <= 3)||(j >= 5 && j <=6)))
 					point[i][j] = new Point((i-1)*100,(j-1)*100,null,"河",0);
@@ -205,13 +211,13 @@ public class DrawBasic extends JFrame{
 			point[i][0] = new Point(0,0,null,"空",0);
 			point[i][8] = new Point(0,0,null,"空",0);
 		}                                 //              在这结束
-		
+
 		for (int i = 0; i < 16; i++)      //为棋子赋初值
 		{
 			chess[i] = new chesspiece("icon/"+type[i%8]+"-"+team[i/8]+".png",type[i%8],team[i/8],null,800-(i%8)*100);
 		}
 		//棋盘上的点的价值
-		int poValue[][] = 
+		int poValue[][] =
 			{
 					{0, 0,  0,   0,   0,     0,   0,   0,  0},
 					{0, 50, 75,  200, 10000, 200, 75,  50, 0},
@@ -348,8 +354,26 @@ public class DrawBasic extends JFrame{
 		about = new JMenuItem("关于");
 		about.addActionListener(new menuListener(this));
 		help.add(about);
-		
-	}
+
+        playingnow =new JLabel("正在进行人机对战");
+        playingnow.setBounds(1046,50,444,50);
+        this.getContentPane().add(playingnow);
+
+		jta =new JTextArea("我的天啊",45,30);
+        JScrollPane scroll = new JScrollPane(jta);
+        scroll.setHorizontalScrollBarPolicy(
+                JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+        scroll.setVerticalScrollBarPolicy(
+                JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        jta.setEnabled(false);
+        panelOutput = new JPanel();
+        this.getContentPane().add(panelOutput);
+        panelOutput.setBounds(1046,100,444,893);
+        panelOutput.add(scroll);
+
+
+
+    }
 	public static void main(String args[])
 	{
 		new DrawBasic();
@@ -838,32 +862,4 @@ public class DrawBasic extends JFrame{
 		}
 	}
 }
-class Point{
-	public static final int X_BORDER = 150;
-	public static final int Y_BORDER = 5;
-	public int x1,x2,y1,y2;
-	public int deAttack;         //对棋子攻击力的限制值
-	public int poValue[];          //当前点的价值,poValue0为对红色方的价值poValue1为对蓝色方的价值
-	public int i;
-	public int j;
-	public chesspiece chess;
-	public String road;
-	Point()
-	{
-		x1 = x2 = y1 = y2 = -1;
-		chess = null;
-		road = null;
-		deAttack = 0;
-	}
-	Point(int i,int j,chesspiece chess,String road,int deAttack)
-	{
-		x1 = i + Y_BORDER;
-		x2 = x1 + 100;
-		y1 = j + X_BORDER;
-		y2 = y1 + 100;
-		this.chess = chess;
-		this.road = road;
-		this.deAttack = deAttack;
-		poValue = new int[2];
-	}
-}
+

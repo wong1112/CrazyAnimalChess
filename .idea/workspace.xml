@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a5f2f0-9a4e-434e-83da-b0b25fe79c23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eg_draw/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eg_draw/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eg_draw/lan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eg_draw/pve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eg_draw/pvp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$AImove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$AImove.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$FrameMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$FrameMouseListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$menuListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$menuListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$undoUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$undoUnit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/Point.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/MainPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DrawBasic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrawBasic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="141" selection-start-line="141" selection-end-line="142" selection-end-column="27" />
+            <state relative-caret-position="151">
+              <caret line="348" column="31" lean-forward="true" selection-start-line="348" selection-start-column="31" selection-end-line="348" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,13 +41,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/MainPage.java">
+      <file leaf-file-name="pvp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="76">
+              <caret line="303" column="38" lean-forward="true" selection-start-line="303" selection-start-column="38" selection-end-line="303" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#14404#14405#0" expanded="true" />
+                <element signature="e#14429#14430#0" expanded="true" />
+                <element signature="e#14598#14599#0" expanded="true" />
+                <element signature="e#14689#14690#0" expanded="true" />
+                <element signature="e#24007#24014#0" expanded="true" />
+                <element signature="e#25057#25064#0" expanded="true" />
+                <element signature="e#27062#27074#0" expanded="true" />
+                <element signature="e#27140#27152#0" expanded="true" />
+                <element signature="e#27432#27439#0" expanded="true" />
+                <element signature="e#29619#29620#0" expanded="true" />
+                <element signature="e#29657#29658#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pve.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eg_draw/pve.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="361" column="32" selection-start-line="361" selection-start-column="32" selection-end-line="361" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lan.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eg_draw/lan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1615#1616#0" expanded="true" />
+                <element signature="e#1653#1654#0" expanded="true" />
+                <element signature="e#13362#13363#0" expanded="true" />
+                <element signature="e#13387#13388#0" expanded="true" />
+                <element signature="e#13556#13557#0" expanded="true" />
+                <element signature="e#13647#13648#0" expanded="true" />
+                <element signature="e#22511#22518#0" expanded="true" />
+                <element signature="e#23561#23568#0" expanded="true" />
+                <element signature="e#25566#25578#0" expanded="true" />
+                <element signature="e#25644#25656#0" expanded="true" />
+                <element signature="e#25936#25943#0" expanded="true" />
+                <element signature="e#28123#28124#0" expanded="true" />
+                <element signature="e#28161#28162#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +115,22 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>chessInit</find>
+      <find>quit</find>
+      <find>jpa</find>
+      <find>tmp.</find>
+      <find>frame</find>
+      <find>DrawBasic</find>
+      <find>panel</find>
+      <find>x1</find>
+      <find>point</find>
+      <find>lan</find>
+      <find>pvc</find>
+      <find>pvp</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Poi</replace>
+      <replace>point1</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,8 +141,13 @@
         <option value="$PROJECT_DIR$/关于.txt" />
         <option value="$PROJECT_DIR$/游戏规则.txt" />
         <option value="$PROJECT_DIR$/src/eg_draw/GUI.java" />
-        <option value="$PROJECT_DIR$/src/eg_draw/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/Point.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/BasicMethod.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/pve.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/lan.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/pvp.java" />
       </list>
     </option>
   </component>
@@ -112,13 +190,6 @@
               <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="eg_draw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eg_draw" type="462c0819:PsiDirectoryNode" />
-              <item name="DrawBasic.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -234,8 +305,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainPage" />
-        <item itemvalue="Application.GUI" />
         <item itemvalue="Application.DrawBasic" />
+        <item itemvalue="Application.GUI" />
         <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
@@ -261,7 +332,7 @@
       <workItem from="1525662788190" duration="293000" />
       <workItem from="1526387552431" duration="48000" />
       <workItem from="1526390445184" duration="454000" />
-      <workItem from="1526439142380" duration="9528000" />
+      <workItem from="1526439142380" duration="19935000" />
     </task>
     <task id="LOCAL-00001" summary="* 新建项目">
       <created>1524049050824</created>
@@ -274,7 +345,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12829000" />
+    <option name="totallyTimeSpent" value="23236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -289,13 +360,14 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296593" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296593" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1404762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1404762" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -307,7 +379,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,51 +392,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="* 新建项目" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="322.0" y="370.0">com</node>
-            <node x="194.0" y="148.0">controller</node>
-            <node x="0.0" y="222.0">images</node>
-            <node x="385.0" y="148.0">netscape</node>
-            <node x="0.0" y="296.0">oracle</node>
-            <node x="311.0" y="444.0">org</node>
-            <node x="278.0" y="0.0">toolbarButtonGraphics</node>
-            <node x="156.0" y="444.0">sun</node>
-            <node x="0.0" y="148.0">META-INF</node>
-            <node x="0.0" y="518.0">jdk</node>
-            <node x="337.0" y="296.0">apple</node>
-            <node x="163.0" y="370.0">view</node>
-            <node x="233.0" y="74.0">groovyjarjarasm</node>
-            <node x="0.0" y="444.0">java</node>
-            <node x="175.0" y="222.0">groovy</node>
-            <node x="150.0" y="518.0">Game</node>
-            <node x="0.0" y="370.0">javax</node>
-            <node x="350.0" y="222.0">model</node>
-            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
-            <node x="169.0" y="296.0">javafx</node>
-            <node x="0.0" y="74.0">groovyjarjarantlr</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8465608465608465" x="264.0" y="274.0" />
-          <SelectedNodes>
-            <node>netscape</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JavaScript-modules-diagram//Users/wong1112/Documents/Github/CrazyAnimalChess/src/model">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1107,10 +1133,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/eg_draw/chesspiece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/BasicMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2553">
+          <caret line="178" column="26" lean-forward="true" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1119,20 +1172,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eg_draw/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="900">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/pve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="141" selection-start-line="141" selection-end-line="142" selection-end-column="27" />
+        <state relative-caret-position="504">
+          <caret line="361" column="32" selection-start-line="361" selection-start-column="32" selection-end-line="361" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="303" column="38" lean-forward="true" selection-start-line="303" selection-start-column="38" selection-end-line="303" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#14404#14405#0" expanded="true" />
+            <element signature="e#14429#14430#0" expanded="true" />
+            <element signature="e#14598#14599#0" expanded="true" />
+            <element signature="e#14689#14690#0" expanded="true" />
+            <element signature="e#24007#24014#0" expanded="true" />
+            <element signature="e#25057#25064#0" expanded="true" />
+            <element signature="e#27062#27074#0" expanded="true" />
+            <element signature="e#27140#27152#0" expanded="true" />
+            <element signature="e#27432#27439#0" expanded="true" />
+            <element signature="e#29619#29620#0" expanded="true" />
+            <element signature="e#29657#29658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="348" column="31" lean-forward="true" selection-start-line="348" selection-start-column="31" selection-end-line="348" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/lan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#13362#13363#0" expanded="true" />
+            <element signature="e#13387#13388#0" expanded="true" />
+            <element signature="e#13556#13557#0" expanded="true" />
+            <element signature="e#13647#13648#0" expanded="true" />
+            <element signature="e#22511#22518#0" expanded="true" />
+            <element signature="e#23561#23568#0" expanded="true" />
+            <element signature="e#25566#25578#0" expanded="true" />
+            <element signature="e#25644#25656#0" expanded="true" />
+            <element signature="e#25936#25943#0" expanded="true" />
+            <element signature="e#28123#28124#0" expanded="true" />
+            <element signature="e#28161#28162#0" expanded="true" />
           </folding>
         </state>
       </provider>
