@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a5f2f0-9a4e-434e-83da-b0b25fe79c23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dou_shou_qi_board.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instructions.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/black_cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/black_dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/black_elephant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/black_leopard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/black_lion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/black_mouse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/black_tiger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/black_wolf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/red_cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/red_dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/red_elephant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/red_leopard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/red_lion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/red_mouse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/red_tiger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pieces/red_wolf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ChessBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ChessPiece.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/BoardPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/GUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/InvisibleButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,10 +13,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DrawBasic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="135" column="50" lean-forward="true" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="关于.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/关于.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="游戏规则.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/游戏规则.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chesspiece.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eg_draw/chesspiece.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/关于.txt" />
+        <option value="$PROJECT_DIR$/游戏规则.txt" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -66,6 +85,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,13 +95,28 @@
               <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
               <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="eg_draw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="eg_draw" type="462c0819:PsiDirectoryNode" />
+              <item name="DrawBasic.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,6 +227,8 @@
       <workItem from="1525617459562" duration="548000" />
       <workItem from="1525662788190" duration="293000" />
       <workItem from="1526387552431" duration="48000" />
+      <workItem from="1526390445184" duration="454000" />
+      <workItem from="1526439142380" duration="222000" />
     </task>
     <task id="LOCAL-00001" summary="* 新建项目">
       <created>1524049050824</created>
@@ -202,10 +241,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2847000" />
+    <option name="totallyTimeSpent" value="3523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -216,7 +256,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296593" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296593" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -1006,6 +1046,37 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/chesspiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="135" column="50" lean-forward="true" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/关于.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏规则.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
