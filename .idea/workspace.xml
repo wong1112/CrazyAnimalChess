@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a5f2f0-9a4e-434e-83da-b0b25fe79c23" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/eg_draw/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$AImove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$AImove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$FrameMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$FrameMouseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$menuListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$menuListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DrawBasic.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DrawBasic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="135" column="50" lean-forward="true" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
+            <state relative-caret-position="424">
+              <caret line="141" selection-start-line="141" selection-end-line="142" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,34 +33,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="关于.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/关于.txt">
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eg_draw/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="游戏规则.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/游戏规则.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chesspiece.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/chesspiece.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="427">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>chessInit</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +67,9 @@
       <list>
         <option value="$PROJECT_DIR$/关于.txt" />
         <option value="$PROJECT_DIR$/游戏规则.txt" />
+        <option value="$PROJECT_DIR$/src/eg_draw/GUI.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" />
       </list>
     </option>
   </component>
@@ -75,7 +82,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -138,9 +145,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DrawBasic">
+  <component name="RunManager" selected="Application.MainPage">
     <configuration name="DrawBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eg_draw.DrawBasic" />
+      <module name="CrazyAnimalChess" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eg_draw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eg_draw.GUI" />
       <module name="CrazyAnimalChess" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -154,6 +172,17 @@
       <option name="MAIN_CLASS_NAME" value="Game" />
       <module name="CrazyAnimalChess" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MainPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eg_draw.MainPage" />
+      <module name="CrazyAnimalChess" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eg_draw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -199,9 +228,13 @@
     <list>
       <item itemvalue="Application.Game" />
       <item itemvalue="Application.DrawBasic" />
+      <item itemvalue="Application.GUI" />
+      <item itemvalue="Application.MainPage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainPage" />
+        <item itemvalue="Application.GUI" />
         <item itemvalue="Application.DrawBasic" />
         <item itemvalue="Application.Game" />
       </list>
@@ -228,7 +261,7 @@
       <workItem from="1525662788190" duration="293000" />
       <workItem from="1526387552431" duration="48000" />
       <workItem from="1526390445184" duration="454000" />
-      <workItem from="1526439142380" duration="222000" />
+      <workItem from="1526439142380" duration="9528000" />
     </task>
     <task id="LOCAL-00001" summary="* 新建项目">
       <created>1524049050824</created>
@@ -241,34 +274,34 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3523000" />
+    <option name="totallyTimeSpent" value="12829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3296593" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3296593" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296593" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296593" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1404762" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997996" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -288,9 +321,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="* 新建项目" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
     <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
     <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
     <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
@@ -1049,20 +1079,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/chesspiece.java">
+    <entry file="file://$PROJECT_DIR$/游戏规则.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="135" column="50" lean-forward="true" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1073,10 +1093,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/游戏规则.txt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Container.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="214">
+          <caret line="432" selection-start-line="432" selection-end-line="432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/chesspiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="141" selection-start-line="141" selection-end-line="142" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

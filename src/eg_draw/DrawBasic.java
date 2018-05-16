@@ -130,6 +130,8 @@ public class DrawBasic extends JFrame{
 			if (e.getSource() == quit)
 			{
 				tmp.dispose();
+				MainPage.frame.setVisible(true);
+
 			}
 			if (e.getSource() == explain)
 			{
@@ -153,7 +155,7 @@ public class DrawBasic extends JFrame{
 	
 //		chessInit();
     	switchListener = 1;
-		this.setSize(996, 993);
+		this.setSize(996+550, 993);
     	((JPanel)this.getContentPane()).setOpaque(false);  //设置内容面板背景透明
     	this.addMouseListener(new FrameMouseListener(this));
 		this.setVisible(true);
