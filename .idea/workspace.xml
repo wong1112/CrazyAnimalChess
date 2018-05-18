@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a5f2f0-9a4e-434e-83da-b0b25fe79c23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eg_draw/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eg_draw/lan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eg_draw/pve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eg_draw/pvp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$AImove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$AImove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$FrameMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$FrameMouseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$menuListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$menuListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$undoUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$undoUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eg_draw/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/MainPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DrawBasic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eg_draw/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="348" column="31" lean-forward="true" selection-start-line="348" selection-start-column="31" selection-end-line="348" selection-end-column="31" />
+            <state relative-caret-position="472">
+              <caret line="98" column="59" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,64 +28,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pvp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="303" column="38" lean-forward="true" selection-start-line="303" selection-start-column="38" selection-end-line="303" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1632#1633#0" expanded="true" />
-                <element signature="e#1670#1671#0" expanded="true" />
-                <element signature="e#14404#14405#0" expanded="true" />
-                <element signature="e#14429#14430#0" expanded="true" />
-                <element signature="e#14598#14599#0" expanded="true" />
-                <element signature="e#14689#14690#0" expanded="true" />
-                <element signature="e#24007#24014#0" expanded="true" />
-                <element signature="e#25057#25064#0" expanded="true" />
-                <element signature="e#27062#27074#0" expanded="true" />
-                <element signature="e#27140#27152#0" expanded="true" />
-                <element signature="e#27432#27439#0" expanded="true" />
-                <element signature="e#29619#29620#0" expanded="true" />
-                <element signature="e#29657#29658#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pve.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/pve.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="361" column="32" selection-start-line="361" selection-start-column="32" selection-end-line="361" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lan.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lan.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eg_draw/lan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="5310">
               <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1615#1616#0" expanded="true" />
-                <element signature="e#1653#1654#0" expanded="true" />
-                <element signature="e#13362#13363#0" expanded="true" />
-                <element signature="e#13387#13388#0" expanded="true" />
-                <element signature="e#13556#13557#0" expanded="true" />
-                <element signature="e#13647#13648#0" expanded="true" />
-                <element signature="e#22511#22518#0" expanded="true" />
-                <element signature="e#23561#23568#0" expanded="true" />
-                <element signature="e#25566#25578#0" expanded="true" />
-                <element signature="e#25644#25656#0" expanded="true" />
-                <element signature="e#25936#25943#0" expanded="true" />
-                <element signature="e#28123#28124#0" expanded="true" />
-                <element signature="e#28161#28162#0" expanded="true" />
+                <element signature="e#23979#23986#0" expanded="true" />
+                <element signature="e#25029#25036#0" expanded="true" />
+                <element signature="e#27034#27046#0" expanded="true" />
+                <element signature="e#27112#27124#0" expanded="true" />
+                <element signature="e#27404#27411#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuinterGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/QuinterGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/ui/GameFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -124,8 +93,8 @@
       <find>x1</find>
       <find>point</find>
       <find>lan</find>
-      <find>pvc</find>
       <find>pvp</find>
+      <find>pvc</find>
     </findStrings>
     <replaceStrings>
       <replace>Poi</replace>
@@ -138,16 +107,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/关于.txt" />
-        <option value="$PROJECT_DIR$/游戏规则.txt" />
-        <option value="$PROJECT_DIR$/src/eg_draw/GUI.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/Point.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/BasicMethod.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" />
-        <option value="$PROJECT_DIR$/src/eg_draw/MainPage.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/pve.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/lan.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/pvp.java" />
+        <option value="$PROJECT_DIR$/src/client/data/Data.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/BackListener.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/ChallengeListener.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/ConnectListener.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/ListListener.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/MapListener.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/MessageListener.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/NameListener.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/QuitListener.java" />
+        <option value="$PROJECT_DIR$/src/client/manager/IOManager.java" />
+        <option value="$PROJECT_DIR$/src/client/manager/ListManager.java" />
+        <option value="$PROJECT_DIR$/src/client/manager/MessageManager.java" />
+        <option value="$PROJECT_DIR$/src/client/net/Connect.java" />
+        <option value="$PROJECT_DIR$/src/client/net/PlayChess.java" />
+        <option value="$PROJECT_DIR$/src/client/net/Receive.java" />
+        <option value="$PROJECT_DIR$/src/client/net/Resolve.java" />
+        <option value="$PROJECT_DIR$/src/client/ui/ChessBoardCanvas.java" />
+        <option value="$PROJECT_DIR$/src/client/ui/FunctionPanel.java" />
+        <option value="$PROJECT_DIR$/src/client/ui/GameFrame.java" />
+        <option value="$PROJECT_DIR$/src/client/ui/GamePanel.java" />
+        <option value="$PROJECT_DIR$/src/client/ui/MessagePanel.java" />
+        <option value="$PROJECT_DIR$/src/client/ui/OperationPanel.java" />
+        <option value="$PROJECT_DIR$/src/client/ui/PlayerPanel.java" />
+        <option value="$PROJECT_DIR$/src/client/QuinterGame.java" />
+        <option value="$PROJECT_DIR$/src/server/net/Action.java" />
+        <option value="$PROJECT_DIR$/src/server/net/EndDeal.java" />
+        <option value="$PROJECT_DIR$/src/server/net/Resolve.java" />
+        <option value="$PROJECT_DIR$/src/server/net/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/server/tool/check/Check.java" />
+        <option value="$PROJECT_DIR$/src/server/tool/check/CheckM.java" />
+        <option value="$PROJECT_DIR$/src/server/tool/check/CheckN.java" />
+        <option value="$PROJECT_DIR$/src/server/tool/check/CheckX.java" />
+        <option value="$PROJECT_DIR$/src/server/tool/check/CheckY.java" />
+        <option value="$PROJECT_DIR$/src/server/tool/FightManager.java" />
+        <option value="$PROJECT_DIR$/src/server/tool/HashMapManager.java" />
+        <option value="$PROJECT_DIR$/src/server/tool/Player.java" />
+        <option value="$PROJECT_DIR$/src/server/tool/MessageManager.java" />
+        <option value="$PROJECT_DIR$/src/server/ui/ClientPanel.java" />
+        <option value="$PROJECT_DIR$/src/server/ui/MatchsPanel.java" />
+        <option value="$PROJECT_DIR$/src/server/ui/MessagePanel.java" />
+        <option value="$PROJECT_DIR$/src/server/ui/ServerFrame.java" />
+        <option value="$PROJECT_DIR$/src/server/Server.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/RestartListener.java" />
+        <option value="$PROJECT_DIR$/src/client/listener/StartListener.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/MainPage.java" />
       </list>
     </option>
   </component>
@@ -160,7 +170,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -170,9 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,12 +198,89 @@
               <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
               <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="eg_draw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+              <item name="check" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,6 +289,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,11 +326,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Game" />
-      <module name="CrazyAnimalChess" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="MainPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eg_draw.MainPage" />
       <module name="CrazyAnimalChess" />
@@ -251,6 +333,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="eg_draw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="QuinterGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.QuinterGame" />
+      <module name="CrazyAnimalChess" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="CrazyAnimalChess" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,17 +401,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Game" />
       <item itemvalue="Application.DrawBasic" />
       <item itemvalue="Application.GUI" />
       <item itemvalue="Application.MainPage" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.QuinterGame" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainPage" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.QuinterGame" />
         <item itemvalue="Application.DrawBasic" />
         <item itemvalue="Application.GUI" />
-        <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +438,10 @@
       <workItem from="1525662788190" duration="293000" />
       <workItem from="1526387552431" duration="48000" />
       <workItem from="1526390445184" duration="454000" />
-      <workItem from="1526439142380" duration="19935000" />
+      <workItem from="1526439142380" duration="20177000" />
+      <workItem from="1526478471084" duration="282000" />
+      <workItem from="1526480837091" duration="39000" />
+      <workItem from="1526611023576" duration="1839000" />
     </task>
     <task id="LOCAL-00001" summary="* 新建项目">
       <created>1524049050824</created>
@@ -345,10 +454,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23236000" />
+    <option name="totallyTimeSpent" value="25638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -360,14 +469,13 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296593" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296593" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1404762" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1404762" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -379,6 +487,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,823 +501,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="* 新建项目" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JavaScript-modules-diagram//Users/wong1112/Documents/Github/CrazyAnimalChess/src/model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/model</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">model.ChessBoard</node>
-            <node x="686.0" y="0.0">model.Animal</node>
-            <node x="404.0" y="0.0">model.ChessPiece</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.5411499436302142" x="396.0" y="434.0" />
-          <SelectedNodes>
-            <node>model.ChessBoard</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/model.ChessPiece">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model.ChessPiece</OriginalElement>
-          <nodes>
-            <node x="0.0" y="79.0">model.ChessPiece</node>
-            <node x="31.5" y="0.0">java.lang.Comparable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="model.ChessPiece" target="java.lang.Comparable">
-              <point x="0.0" y="-80.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="120.0" />
-          <SelectedNodes>
-            <node>model.ChessPiece</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Game">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Game</OriginalElement>
-          <nodes>
-            <node x="9.0" y="0.0">java.lang.FunctionalInterface</node>
-            <node x="0.0" y="180.0">Game</node>
-            <node x="27.5" y="79.0">java.lang.Runnable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
-              <point x="0.0" y="-25.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="Game" target="java.lang.Runnable">
-              <point x="0.0" y="-36.5" />
-              <point x="0.0" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="127.0" />
-          <SelectedNodes>
-            <node>Game</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/view.GUI">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>view.GUI</OriginalElement>
-          <nodes>
-            <node x="395.48333333333335" y="237.0">javax.swing.JComponent</node>
-            <node x="777.75" y="316.0">java.lang.SuppressWarnings</node>
-            <node x="751.5" y="395.0">view.GUI</node>
-            <node x="633.5" y="158.0">java.beans.JavaBean</node>
-            <node x="419.5" y="158.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
-            <node x="160.0" y="0.0">java.awt.MenuContainer</node>
-            <node x="177.0" y="158.0">java.awt.Container</node>
-            <node x="724.25" y="237.0">javax.accessibility.Accessible</node>
-            <node x="171.0" y="79.0">java.awt.Component</node>
-            <node x="0.0" y="0.0">java.awt.image.ImageObserver</node>
-            <node x="669.75" y="316.0">javax.swing.JPanel</node>
-            <node x="322.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
-              <point x="-29.333333333333314" y="-14.5" />
-              <point x="684.4166666666667" y="291.0" />
-              <point x="458.98333333333335" y="291.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
-              <point x="15.875" y="-14.5" />
-              <point x="474.85833333333335" y="207.0" />
-              <point x="516.5" y="207.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="java.awt.Container">
-              <point x="-47.625" y="-14.5" />
-              <point x="411.35833333333335" y="217.0" />
-              <point x="231.0" y="217.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="view.GUI" target="javax.swing.JPanel">
-              <point x="-17.75" y="-14.5" />
-              <point x="769.25" y="370.0" />
-              <point x="713.75" y="370.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
-              <point x="29.333333333333314" y="-14.5" />
-              <point x="743.0833333333334" y="291.0" />
-              <point x="780.75" y="291.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.awt.Component" target="java.awt.MenuContainer">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JPanel" target="java.beans.JavaBean">
-              <point x="0.0" y="-14.5" />
-              <point x="26.75" y="14.5" />
-            </edge>
-            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
-              <point x="-40.0" y="-14.5" />
-              <point x="191.0" y="54.0" />
-              <point x="70.0" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.awt.Component" target="java.io.Serializable">
-              <point x="40.0" y="-14.5" />
-              <point x="271.0" y="54.0" />
-              <point x="351.0" y="54.0" />
-              <point x="-29.0" y="14.5" />
-            </edge>
-            <edge source="view.GUI" target="java.lang.SuppressWarnings">
-              <point x="17.75" y="-14.5" />
-              <point x="804.75" y="370.0" />
-              <point x="860.25" y="370.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="java.beans.JavaBean">
-              <point x="47.625" y="-14.5" />
-              <point x="506.60833333333335" y="217.0" />
-              <point x="660.25" y="217.0" />
-              <point x="-26.75" y="14.5" />
-            </edge>
-            <edge source="java.awt.Container" target="java.awt.Component">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="java.io.Serializable">
-              <point x="-15.875" y="-14.5" />
-              <point x="443.10833333333335" y="207.0" />
-              <point x="409.0" y="207.0" />
-              <point x="29.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.4984423676012461" x="472.0" y="212.0" />
-          <SelectedNodes>
-            <node>view.GUI</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/model.Animal">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model.Animal</OriginalElement>
-          <nodes>
-            <node x="56.25" y="79.0">java.lang.Enum</node>
-            <node x="74.25" y="202.0">model.Animal</node>
-            <node x="136.0" y="0.0">java.lang.Comparable</node>
-            <node x="0.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.lang.Enum" target="java.io.Serializable">
-              <point x="-35.5" y="-36.5" />
-              <point x="91.75" y="54.0" />
-              <point x="58.0" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.lang.Enum" target="java.lang.Comparable">
-              <point x="35.5" y="-36.5" />
-              <point x="162.75" y="54.0" />
-              <point x="196.5" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="model.Animal" target="java.lang.Enum">
-              <point x="0.0" y="-102.5" />
-              <point x="0.0" y="36.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="129.0" y="204.0" />
-          <SelectedNodes>
-            <node>model.Animal</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/controller.Controller">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>controller.Controller</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">controller.Controller</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="507.0" y="380.0" />
-          <SelectedNodes>
-            <node>controller.Controller</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/ChessPiece.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/GUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/InvisibleButton.java" />
-    <entry file="file://$PROJECT_DIR$/src/Game.java" />
-    <entry file="file://$PROJECT_DIR$/src/controller/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/Animal.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/ChessPiece.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/Animal.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/GUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/ChessPiece.java" />
-    <entry file="file://$PROJECT_DIR$/src/controller/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/Animal.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/GUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/InvisibleButton.java" />
-    <entry file="file://$PROJECT_DIR$/src/Game.java" />
-    <entry file="file://$PROJECT_DIR$/src/view/BoardPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/ChessBoard.java" />
-    <entry file="uml://JAVA/model.Animal">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model.Animal</OriginalElement>
-          <nodes>
-            <node x="56.25" y="79.0">java.lang.Enum</node>
-            <node x="74.25" y="202.0">model.Animal</node>
-            <node x="136.0" y="0.0">java.lang.Comparable</node>
-            <node x="0.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.lang.Enum" target="java.io.Serializable">
-              <point x="-35.5" y="-36.5" />
-              <point x="91.75" y="54.0" />
-              <point x="58.0" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.lang.Enum" target="java.lang.Comparable">
-              <point x="35.5" y="-36.5" />
-              <point x="162.75" y="54.0" />
-              <point x="196.5" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="model.Animal" target="java.lang.Enum">
-              <point x="0.0" y="-102.5" />
-              <point x="0.0" y="36.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="129.0" y="204.0" />
-          <SelectedNodes>
-            <node>model.Animal</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="322.0" y="370.0">com</node>
-            <node x="194.0" y="148.0">controller</node>
-            <node x="0.0" y="222.0">images</node>
-            <node x="385.0" y="148.0">netscape</node>
-            <node x="0.0" y="296.0">oracle</node>
-            <node x="311.0" y="444.0">org</node>
-            <node x="278.0" y="0.0">toolbarButtonGraphics</node>
-            <node x="156.0" y="444.0">sun</node>
-            <node x="0.0" y="148.0">META-INF</node>
-            <node x="0.0" y="518.0">jdk</node>
-            <node x="337.0" y="296.0">apple</node>
-            <node x="163.0" y="370.0">view</node>
-            <node x="233.0" y="74.0">groovyjarjarasm</node>
-            <node x="0.0" y="444.0">java</node>
-            <node x="175.0" y="222.0">groovy</node>
-            <node x="150.0" y="518.0">Game</node>
-            <node x="0.0" y="370.0">javax</node>
-            <node x="350.0" y="222.0">model</node>
-            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
-            <node x="169.0" y="296.0">javafx</node>
-            <node x="0.0" y="74.0">groovyjarjarantlr</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8465608465608465" x="264.0" y="274.0" />
-          <SelectedNodes>
-            <node>netscape</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/wong1112/Documents/Github/CrazyAnimalChess/src/model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/model</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">model.ChessBoard</node>
-            <node x="686.0" y="0.0">model.Animal</node>
-            <node x="404.0" y="0.0">model.ChessPiece</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.5411499436302142" x="396.0" y="434.0" />
-          <SelectedNodes>
-            <node>model.ChessBoard</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/model.ChessPiece">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model.ChessPiece</OriginalElement>
-          <nodes>
-            <node x="0.0" y="79.0">model.ChessPiece</node>
-            <node x="31.5" y="0.0">java.lang.Comparable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="model.ChessPiece" target="java.lang.Comparable">
-              <point x="0.0" y="-80.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="120.0" />
-          <SelectedNodes>
-            <node>model.ChessPiece</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Game">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Game</OriginalElement>
-          <nodes>
-            <node x="9.0" y="0.0">java.lang.FunctionalInterface</node>
-            <node x="0.0" y="180.0">Game</node>
-            <node x="27.5" y="79.0">java.lang.Runnable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
-              <point x="0.0" y="-25.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="Game" target="java.lang.Runnable">
-              <point x="0.0" y="-36.5" />
-              <point x="0.0" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="92.0" y="127.0" />
-          <SelectedNodes>
-            <node>Game</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/view.GUI">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>view.GUI</OriginalElement>
-          <nodes>
-            <node x="395.48333333333335" y="237.0">javax.swing.JComponent</node>
-            <node x="777.75" y="316.0">java.lang.SuppressWarnings</node>
-            <node x="751.5" y="395.0">view.GUI</node>
-            <node x="633.5" y="158.0">java.beans.JavaBean</node>
-            <node x="419.5" y="158.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
-            <node x="160.0" y="0.0">java.awt.MenuContainer</node>
-            <node x="177.0" y="158.0">java.awt.Container</node>
-            <node x="724.25" y="237.0">javax.accessibility.Accessible</node>
-            <node x="171.0" y="79.0">java.awt.Component</node>
-            <node x="0.0" y="0.0">java.awt.image.ImageObserver</node>
-            <node x="669.75" y="316.0">javax.swing.JPanel</node>
-            <node x="322.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
-              <point x="-29.333333333333314" y="-14.5" />
-              <point x="684.4166666666667" y="291.0" />
-              <point x="458.98333333333335" y="291.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
-              <point x="15.875" y="-14.5" />
-              <point x="474.85833333333335" y="207.0" />
-              <point x="516.5" y="207.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="java.awt.Container">
-              <point x="-47.625" y="-14.5" />
-              <point x="411.35833333333335" y="217.0" />
-              <point x="231.0" y="217.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="view.GUI" target="javax.swing.JPanel">
-              <point x="-17.75" y="-14.5" />
-              <point x="769.25" y="370.0" />
-              <point x="713.75" y="370.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
-              <point x="29.333333333333314" y="-14.5" />
-              <point x="743.0833333333334" y="291.0" />
-              <point x="780.75" y="291.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.awt.Component" target="java.awt.MenuContainer">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JPanel" target="java.beans.JavaBean">
-              <point x="0.0" y="-14.5" />
-              <point x="26.75" y="14.5" />
-            </edge>
-            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
-              <point x="-40.0" y="-14.5" />
-              <point x="191.0" y="54.0" />
-              <point x="70.0" y="54.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="java.awt.Component" target="java.io.Serializable">
-              <point x="40.0" y="-14.5" />
-              <point x="271.0" y="54.0" />
-              <point x="351.0" y="54.0" />
-              <point x="-29.0" y="14.5" />
-            </edge>
-            <edge source="view.GUI" target="java.lang.SuppressWarnings">
-              <point x="17.75" y="-14.5" />
-              <point x="804.75" y="370.0" />
-              <point x="860.25" y="370.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="java.beans.JavaBean">
-              <point x="47.625" y="-14.5" />
-              <point x="506.60833333333335" y="217.0" />
-              <point x="660.25" y="217.0" />
-              <point x="-26.75" y="14.5" />
-            </edge>
-            <edge source="java.awt.Container" target="java.awt.Component">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="javax.swing.JComponent" target="java.io.Serializable">
-              <point x="-15.875" y="-14.5" />
-              <point x="443.10833333333335" y="207.0" />
-              <point x="409.0" y="207.0" />
-              <point x="29.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.4984423676012461" x="472.0" y="212.0" />
-          <SelectedNodes>
-            <node>view.GUI</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/controller.Controller">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>controller.Controller</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">controller.Controller</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="507.0" y="380.0" />
-          <SelectedNodes>
-            <node>controller.Controller</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/model.ChessBoard">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model.ChessBoard</OriginalElement>
-          <nodes>
-            <node x="0.0" y="1714.0">controller.Controller</node>
-            <node x="358.1394736842106" y="1259.0">view.BoardPanel</node>
-            <node x="164.68750000000003" y="342.0">model.ChessBoard</node>
-            <node x="169.7019736842106" y="2190.0">view.GUI</node>
-            <node x="176.50460526315794" y="0.0">model.ChessPiece</node>
-            <node x="31.400438596491256" y="1425.0">controller.Controller.Mode</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="view.BoardPanel" target="model.ChessBoard">
-              <point x="-33.25" y="-202.5" />
-              <point x="457.8894736842106" y="1234.0" />
-              <point x="478.8125" y="1234.0" />
-              <point x="134.625" y="433.5" />
-            </edge>
-            <edge source="view.GUI" target="model.ChessBoard">
-              <point x="0.0" y="-180.0" />
-              <point x="288.7019736842106" y="2170.0" />
-              <point x="298.50000000000006" y="2170.0" />
-              <point x="-44.875" y="433.5" />
-            </edge>
-            <edge source="view.BoardPanel" target="model.ChessPiece">
-              <point x="99.75" y="-202.5" />
-              <point x="590.8894736842105" y="1234.0" />
-              <point x="545.1875" y="1234.0" />
-              <point x="545.1875" y="292.0" />
-              <point x="398.69210526315794" y="292.0" />
-              <point x="103.6875" y="136.0" />
-            </edge>
-            <edge source="view.GUI" target="controller.Controller">
-              <point x="-47.599999999999966" y="-180.0" />
-              <point x="241.10197368421063" y="2170.0" />
-              <point x="216.0" y="2170.0" />
-              <point x="72.0" y="213.0" />
-            </edge>
-            <edge source="view.GUI" target="view.BoardPanel">
-              <point x="95.19999999999999" y="-180.0" />
-              <point x="383.9019736842106" y="2170.0" />
-              <point x="556.5728070175439" y="2170.0" />
-              <point x="556.5728070175439" y="1694.0" />
-              <point x="590.8894736842105" y="1694.0" />
-              <point x="99.75" y="202.5" />
-            </edge>
-            <edge source="controller.Controller" target="view.BoardPanel">
-              <point x="96.0" y="-213.0" />
-              <point x="240.0" y="1684.0" />
-              <point x="391.3894736842106" y="1684.0" />
-              <point x="-99.75" y="202.5" />
-            </edge>
-            <edge source="controller.Controller" target="model.ChessBoard">
-              <point x="64.0" y="-213.0" />
-              <point x="208.0" y="1694.0" />
-              <point x="209.18750000000003" y="1694.0" />
-              <point x="-134.625" y="433.5" />
-            </edge>
-            <edge source="controller.Controller" target="controller.Controller.Mode">
-              <point x="-96.0" y="-213.0" />
-              <point x="48.0" y="1694.0" />
-              <point x="74.40043859649126" y="1694.0" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="controller.Controller.Mode" target="controller.Controller">
-              <point x="28.666666666666686" y="36.5" />
-              <point x="103.06710526315794" y="1694.0" />
-              <point x="80.0" y="1694.0" />
-              <point x="-64.0" y="-213.0" />
-            </edge>
-            <edge source="controller.Controller" target="model.ChessPiece">
-              <point x="32.0" y="-213.0" />
-              <point x="176.0" y="1694.0" />
-              <point x="149.90043859649126" y="1694.0" />
-              <point x="149.90043859649126" y="312.0" />
-              <point x="250.56710526315794" y="312.0" />
-              <point x="-44.4375" y="136.0" />
-            </edge>
-            <edge source="model.ChessBoard" target="model.ChessPiece">
-              <point x="0.0" y="-433.5" />
-              <point x="344.1875" y="322.0" />
-              <point x="309.81710526315794" y="322.0" />
-              <point x="14.8125" y="136.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.3666666666666667" x="300.0" y="1280.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/游戏规则.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/关于.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="432" selection-start-line="432" selection-end-line="432" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/rule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/chesspiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/BasicMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2553">
-          <caret line="178" column="26" lean-forward="true" selection-start-line="178" selection-start-column="26" selection-end-line="178" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eg_draw/pve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="361" column="32" selection-start-line="361" selection-start-column="32" selection-end-line="361" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="303" column="38" lean-forward="true" selection-start-line="303" selection-start-column="38" selection-end-line="303" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#14404#14405#0" expanded="true" />
-            <element signature="e#14429#14430#0" expanded="true" />
-            <element signature="e#14598#14599#0" expanded="true" />
-            <element signature="e#14689#14690#0" expanded="true" />
-            <element signature="e#24007#24014#0" expanded="true" />
-            <element signature="e#25057#25064#0" expanded="true" />
-            <element signature="e#27062#27074#0" expanded="true" />
-            <element signature="e#27140#27152#0" expanded="true" />
-            <element signature="e#27432#27439#0" expanded="true" />
-            <element signature="e#29619#29620#0" expanded="true" />
-            <element signature="e#29657#29658#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1223,25 +521,377 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/data/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/BackListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/ChallengeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/ConnectListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/ListListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/MapListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/MessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/NameListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/QuitListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/manager/IOManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/manager/ListManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/manager/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/net/Connect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/net/PlayChess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/net/Resolve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="437" selection-start-line="437" selection-end-line="437" />
+          <folding>
+            <element signature="e#6049#6050#0" expanded="true" />
+            <element signature="e#6107#6108#0" expanded="true" />
+            <element signature="e#6423#6424#0" expanded="true" />
+            <element signature="e#6484#6485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/net/Receive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/ui/ChessBoardCanvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+          <folding>
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/ui/FunctionPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/ui/GamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/ui/MessagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/tool/check/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/tool/check/CheckN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/tool/check/CheckM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/net/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/net/Resolve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/net/EndDeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/net/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="341" selection-start-line="341" selection-end-line="341" />
+          <folding>
+            <element signature="e#3033#3034#0" expanded="true" />
+            <element signature="e#3088#3089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/tool/check/CheckX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/tool/FightManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/tool/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/tool/HashMapManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/tool/check/CheckY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ui/ClientPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/tool/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ui/MatchsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ui/MessagePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/RestartListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/listener/StartListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/eg_draw/lan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="5310">
           <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-            <element signature="e#13362#13363#0" expanded="true" />
-            <element signature="e#13387#13388#0" expanded="true" />
-            <element signature="e#13556#13557#0" expanded="true" />
-            <element signature="e#13647#13648#0" expanded="true" />
-            <element signature="e#22511#22518#0" expanded="true" />
-            <element signature="e#23561#23568#0" expanded="true" />
-            <element signature="e#25566#25578#0" expanded="true" />
-            <element signature="e#25644#25656#0" expanded="true" />
-            <element signature="e#25936#25943#0" expanded="true" />
-            <element signature="e#28123#28124#0" expanded="true" />
-            <element signature="e#28161#28162#0" expanded="true" />
+            <element signature="e#23979#23986#0" expanded="true" />
+            <element signature="e#25029#25036#0" expanded="true" />
+            <element signature="e#27034#27046#0" expanded="true" />
+            <element signature="e#27112#27124#0" expanded="true" />
+            <element signature="e#27404#27411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ui/ServerFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/ui/PlayerPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/ui/OperationPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/ui/GameFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/QuinterGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="98" column="59" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
