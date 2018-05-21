@@ -80,27 +80,6 @@ public class MainPage {
         });//加入事件监听
         panel.add(jButton_4);
 
-        JButton jButton_5 = new JButton("服务器");
-        jButton_5.setBounds(100,400,100,50);
-        jButton_5.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                new ServerFrame();
 
-            }
-        });//加入事件监听
-        panel.add(jButton_5);
-
-        JButton jButton_6 = new JButton("五子棋");
-        jButton_6.setBounds(300,400,100,50);
-        jButton_6.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();//点击按钮时frame1销毁,new一个frame2
-                GameFrame.getInstance().launchFrame();
-
-            }
-        });//加入事件监听
-        panel.add(jButton_6);
     }
 }

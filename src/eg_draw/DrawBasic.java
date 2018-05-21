@@ -5,6 +5,12 @@ import java.awt.event.*;
 import java.io.IOException;
 import javax.swing.*;
 import javax.imageio.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.BufferedReader;
+import java.io.*;
+
 public class DrawBasic extends JFrame{
 	static final String team[] = {"红","蓝"};
 	static final String trap[] = {"红陷阱","蓝陷阱"};
@@ -21,9 +27,10 @@ public class DrawBasic extends JFrame{
 	public int cnt;                   //记录当前走棋的队伍
     public  String str;
 	private String curmode;       //当前游戏模式
+    FileDialog sv,op;
 	JMenuBar menuBar;
 	JMenu menu,pvc,help;
-	JMenuItem pvp,undo,quit,easy,normal,hard,explain,about;
+	JMenuItem pvp,undo,quit,easy,normal,hard,explain,about,save,open;
 	JLabel jb,jc,jd;
 	Point point[][] = new Point[11][9];    //棋盘为9*7， 横纵各多加2为方便判定是否出界
 	chesspiece chess[] = new chesspiece[16];
@@ -40,7 +47,8 @@ public class DrawBasic extends JFrame{
 		public undoUnit next;
 	}
 	undoUnit head;
-	class menuListener implements ActionListener
+
+    class menuListener implements ActionListener
 	{
 		JFrame tmp;
 		menuListener(JFrame tmp)
@@ -49,6 +57,34 @@ public class DrawBasic extends JFrame{
 		}
 		public void actionPerformed(ActionEvent e) {
 			// TODO Auto-generated method stub
+            if (e.getSource() == open) {
+
+                clearchess();
+                switchListener = 0;
+                curmode = mode[1];
+                difficulty = 3;
+
+                op.setVisible(true);
+                try{
+                    File f1 = new File(op.getDirectory(),op.getFile());
+                    ObjectInputStream oin = new ObjectInputStream(new FileInputStream(f1));
+
+                    System.out.println("a");
+
+
+                    Datasave newPerson = (Datasave) oin.readObject(); // 强制转换到Person类型
+
+                    System.out.println(newPerson.chess[6].attack);
+
+
+
+                    oin.close();
+
+                }catch(Exception e1){
+
+                }
+
+            }
 			if (e.getSource() == easy)
 			{
 				clearchess();
@@ -131,7 +167,25 @@ public class DrawBasic extends JFrame{
 					undo.setEnabled(false);
 				}
 			}
-			if (e.getSource() == quit)
+            if (e.getSource() == save){
+                sv.setVisible(true);
+                try{
+                    File f1 = new File(sv.getDirectory(),sv.getFile());
+                    ObjectOutputStream oout = new ObjectOutputStream(new FileOutputStream(f1));
+
+                    Datasave person = new Datasave(chess);
+
+                    oout.writeObject(person);
+
+                    oout.close();
+                }catch(Exception e1){
+
+                }
+
+
+            }
+
+                if (e.getSource() == quit)
 			{
 				tmp.dispose();
 				MainPage.frame.setVisible(true);
@@ -156,6 +210,8 @@ public class DrawBasic extends JFrame{
 	
     	this.setLayout(null);
     	backgroundInit();
+        op = new FileDialog(this,"打开",FileDialog.LOAD);
+        sv = new FileDialog(this, "保存", FileDialog.SAVE);
 
 //		chessInit();
     	switchListener = 1;
@@ -169,7 +225,7 @@ public class DrawBasic extends JFrame{
 
 		
 	}
-	
+
 	void clearchess()
 	{
 		for (int i = 0;i < 16; i++)
@@ -183,6 +239,108 @@ public class DrawBasic extends JFrame{
 		chess.point = point;
 		point.chess = chess;
 	}
+
+    void chessInit1(Datasave d)         //棋子和棋盘坐标初始化的方法
+    {
+        cnt = 0;
+        curChess = null;
+        for (int i = 1; i < 10; i++)         //为棋盘上的点赋初值
+        {
+            for (int j = 1; j < 8; j++)
+
+            {
+                if ((i >= 4 && i<= 6) && ((j >= 2 && j <= 3)||(j >= 5 && j <=6)))
+                    point[i][j] = new Point((i-1)*100,(j-1)*100,null,"河",0);
+                else
+                    point[i][j] = new Point((i-1)*100,(j-1)*100,null,"路",0);
+                point[i][j].j = j;
+                point[i][j].i = i;
+            }
+        }
+        for (int j = 0; j < 9; j++)       //为棋盘边框上的点赋初值,从这开始
+        {
+            point[0][j] = new Point(0,0,null,"空",0);
+            point[10][j] = new Point(0,0,null,"空",0);
+        }
+        for (int i = 1; i < 10; i++)
+        {
+            point[i][0] = new Point(0,0,null,"空",0);
+            point[i][8] = new Point(0,0,null,"空",0);
+        }                                 //              在这结束
+
+        for (int i = 0; i < 16; i++)      //为棋子赋初值
+        {
+            chess[i] = new chesspiece("icon/"+type[i%8]+"-"+team[i/8]+".png",type[i%8],team[i/8],null,800-(i%8)*100);
+        }
+        //棋盘上的点的价值
+        int poValue[][] =
+                {
+                        {0, 0,  0,   0,   0,     0,   0,   0,  0},
+                        {0, 50, 75,  200, 10000, 200, 75,  50, 0},
+                        {0, 50, 75,  100, 200,   100, 75,  50, 0},
+                        {0, 50, 75,  75,  100,   75,  75,  50, 0},
+                        {0, 50, 50,  50,  50,    50,  50,  50, 0},
+                        {0, 10, 25,  25,  10,    25,  25,  10, 0},
+                        {0, 10, 25,  25,  10,    25,  25,  10, 0},
+                        {0, 5,  5,   5,   5,     5,   5,   5,  0},
+                        {0, 4,  4,   4,   4,     4,   4,   4,  0},
+                        {0, 3,  3,   3,   3,     3,   3,   3,  0},
+                        {0, 0,  0,   0,   0,     0,   0,   0,  0},
+                };
+        for (int i = 0; i < 11; i++)
+            for (int j = 0; j < 9; j++)
+            {
+                point[i][j].poValue[0] = poValue[i][j];    //对于红色方来说点的价值
+                point[i][j].poValue[1] = poValue[10-i][j]; //对于蓝色方来说点的价值，与红色方上下对称
+            }
+        point[1][3].deAttack = -800;      //某些特殊棋子
+        point[1][3].road = trap[1];
+        point[1][5].deAttack = -800;
+        point[1][5].road = trap[1];
+        point[2][4].deAttack = -800;
+        point[2][4].road = trap[1];
+        point[8][4].deAttack = -800;
+        point[8][4].road = trap[0];
+        point[9][3].deAttack = -800;
+        point[9][3].road = trap[0];
+        point[9][5].deAttack = -800;
+        point[9][5].road = trap[0];
+//		point[1][4].poValue = 10000;
+        point[1][4].road = team[1];
+//		point[9][4].poValue = 10000;
+        point[9][4].road = team[0];
+        connect(chess[0],point[(d.chess[0].point.x1/100)+1][(d.chess[0].point.y1/100)+1]);             //将棋子摆放在初始位置上
+        connect(chess[1],point[9][7]);
+        connect(chess[2],point[9][1]);
+        connect(chess[3],point[7][5]);
+        connect(chess[4],point[7][3]);
+        connect(chess[5],point[8][6]);
+        connect(chess[6],point[8][2]);
+        connect(chess[7],point[7][7]);
+        connect(chess[8],point[3][7]);
+        connect(chess[9],point[1][1]);
+        connect(chess[10],point[1][7]);
+        connect(chess[11],point[3][3]);
+        connect(chess[12],point[3][5]);
+        connect(chess[13],point[2][2]);
+        connect(chess[14],point[2][6]);
+        connect(chess[15],point[3][1]);
+        deathChess = new HashSet<chesspiece>();        //生还的棋子以及死亡的棋子集合初始化
+        redliveChess = new HashSet<chesspiece>();
+        blueliveChess = new HashSet<chesspiece>();
+        for (int i = 0; i < 8; i++)
+            redliveChess.add(chess[i]);
+        for (int i = 8; i < 16; i++)
+            blueliveChess.add(chess[i]);
+        for (int i = 0; i < 16; i++)
+        {
+            this.getContentPane().add(chess[i]);
+            chess[i].setLocation(chess[i].point.y1+50-(chess[i].ima.getIconWidth())/2, chess[i].point.x1+50-(chess[i].ima.getIconHeight())/2);
+            chess[i].addMouseListener(new FrameMouseListener(this));
+        }
+        redWin.setVisible(false);
+        blueWin.setVisible(false);
+    }
 
 	void chessInit()         //棋子和棋盘坐标初始化的方法
 	{
@@ -334,6 +492,12 @@ public class DrawBasic extends JFrame{
 		undo.addActionListener(new menuListener(this));
 		undo.setEnabled(false);
 		menu.add(undo);
+        open = new JMenuItem("打开保存的对局");
+        open.addActionListener((new menuListener(this)));
+        menu.add(open);
+        save = new JMenuItem("保存对局");
+        save.addActionListener((new menuListener(this)));
+        menu.add(save);
 		quit = new JMenuItem("退出");
 		quit.addActionListener(new menuListener(this));
 		menu.add(quit);
@@ -359,7 +523,7 @@ public class DrawBasic extends JFrame{
         playingnow.setBounds(1046,50,444,50);
         this.getContentPane().add(playingnow);
 
-		jta =new JTextArea("我的天啊",45,30);
+		jta =new JTextArea("红色方先行：\n",45,30);
         JScrollPane scroll = new JScrollPane(jta);
         scroll.setHorizontalScrollBarPolicy(
                 JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
@@ -407,6 +571,8 @@ public class DrawBasic extends JFrame{
 					curChess = point[i][j].chess;
 					jc.setLocation(curChess.point.y1, curChess.point.x1);
 					jc.setVisible(true);
+					    str = "当前选中棋子为" + curChess.type;
+					    jta.append(str+'\n');
 //						System.out.println("当前选中棋子为" + curChess.type);
 				}
 				else
@@ -421,6 +587,8 @@ public class DrawBasic extends JFrame{
 					curChess = point[i][j].chess;
 					jc.setLocation(curChess.point.y1, curChess.point.x1);
 					jc.setVisible(true);
+                    str = "变更选中棋子为" + curChess.type;
+                    jta.append(str+'\n');
 //						System.out.println("变更选中棋子为" + curChess.type);
 				}
 				else
@@ -585,7 +753,10 @@ public class DrawBasic extends JFrame{
 	}
 	private void move(chesspiece c,Point p,undoUnit u)     //移动操作一次
 	{
-		if (p.chess == null)
+	    str = c.type+"移动到"+(p.x1/100+1)+","+(p.y1/100)+"\n";
+        jta.append(str);
+
+        if (p.chess == null)
 		{	
 			u.movechess = c;
 			u.frompoint = c.point;
@@ -609,6 +780,16 @@ public class DrawBasic extends JFrame{
 			p.chess = c;
 		}
 		cnt++;                   //回合转换
+        if(cnt%2==0)
+        {
+            str = "红色方下棋：\n";
+            jta.append(str);
+        }
+        else
+        {
+            str = "黑色方下棋：\n";
+            jta.append(str);
+        }
 	}
 	private String winnable()   //返回胜利方 若没有结束游戏则返回"无"
 	{

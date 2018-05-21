@@ -1,9 +1,10 @@
 package eg_draw;
 import javax.swing.*;
 import java.awt.event.*;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.awt.*;
-public class chesspiece extends JButton{
+public class chesspiece extends JButton implements Serializable {
 	public String type;
 	public String team;
 	public String name;

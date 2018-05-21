@@ -5,6 +5,9 @@ import java.awt.event.*;
 import java.io.IOException;
 import javax.swing.*;
 import javax.imageio.*;
+import java.io.*;
+import java.io.File;
+
 public class pvp extends JFrame{
     static final String team[] = {"红","蓝"};
     static final String trap[] = {"红陷阱","蓝陷阱"};
@@ -21,9 +24,10 @@ public class pvp extends JFrame{
     public int cnt;                   //记录当前走棋的队伍
     public  String str;
     private String curmode;       //当前游戏模式
+    FileDialog sv,op;
     JMenuBar menuBar;
     JMenu menu,pvc,help;
-    JMenuItem pvp,undo,quit,explain,about;
+    JMenuItem pvp,undo,quit,explain,about,save,open;
     JLabel jb,jc,jd;
     Point point[][] = new Point[11][9];    //棋盘为9*7， 横纵各多加2为方便判定是否出界
     chesspiece chess[] = new chesspiece[16];
@@ -49,6 +53,34 @@ public class pvp extends JFrame{
         }
         public void actionPerformed(ActionEvent e) {
             // TODO Auto-generated method stub
+            if (e.getSource() == open) {
+
+                clearchess();
+                switchListener = 0;
+                curmode = mode[1];
+                difficulty = 3;
+
+                op.setVisible(true);
+                try{
+                    File f1 = new File(op.getDirectory(),op.getFile());
+                    ObjectInputStream oin = new ObjectInputStream(new FileInputStream(f1));
+
+                    System.out.println("a");
+
+
+                    Datasave newPerson = (Datasave) oin.readObject(); // 强制转换到Person类型
+
+                    System.out.println(newPerson.chess[6].attack);
+
+
+
+                    oin.close();
+
+                }catch(Exception e1){
+
+                }
+
+            }
             if (e.getSource() == pvp)
             {
                 clearchess();
@@ -107,6 +139,23 @@ public class pvp extends JFrame{
                     undo.setEnabled(false);
                 }
             }
+            if (e.getSource() == save){
+                sv.setVisible(true);
+                try{
+                    File f1 = new File(sv.getDirectory(),sv.getFile());
+                    ObjectOutputStream oout = new ObjectOutputStream(new FileOutputStream(f1));
+
+                    Datasave person = new Datasave(chess);
+
+                    oout.writeObject(person);
+
+                    oout.close();
+                }catch(Exception e1){
+
+                }
+
+
+            }
             if (e.getSource() == quit)
             {
                 tmp.dispose();
@@ -132,6 +181,8 @@ public class pvp extends JFrame{
 
         this.setLayout(null);
         backgroundInit();
+        op = new FileDialog(this,"打开",FileDialog.LOAD);
+        sv = new FileDialog(this, "保存", FileDialog.SAVE);
 
 //		chessInit();
         switchListener = 1;
@@ -308,6 +359,12 @@ public class pvp extends JFrame{
         undo.addActionListener(new menuListener(this));
         undo.setEnabled(false);
         menu.add(undo);
+        open = new JMenuItem("打开保存的对局");
+        open.addActionListener((new menuListener(this)));
+        menu.add(open);
+        save = new JMenuItem("保存对局");
+        save.addActionListener((new menuListener(this)));
+        menu.add(save);
         quit = new JMenuItem("返回主菜单");
         quit.addActionListener(new menuListener(this));
         menu.add(quit);
@@ -325,7 +382,7 @@ public class pvp extends JFrame{
         playingnow.setBounds(1046,50,444,50);
         this.getContentPane().add(playingnow);
 
-        jta =new JTextArea( str,45,30);
+        jta =new JTextArea("红色方先行：\n",45,30);
         JScrollPane scroll = new JScrollPane(jta);
         scroll.setHorizontalScrollBarPolicy(
                 JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
@@ -371,6 +428,8 @@ public class pvp extends JFrame{
                     curChess = point[i][j].chess;
                     jc.setLocation(curChess.point.y1, curChess.point.x1);
                     jc.setVisible(true);
+                    str = "当前选中棋子为" + curChess.type;
+                    jta.append(str+'\n');
 //						System.out.println("当前选中棋子为" + curChess.type);
                 }
                 else
@@ -385,6 +444,8 @@ public class pvp extends JFrame{
                     curChess = point[i][j].chess;
                     jc.setLocation(curChess.point.y1, curChess.point.x1);
                     jc.setVisible(true);
+                    str = "变更选中棋子为" + curChess.type;
+                    jta.append(str+'\n');
 //						System.out.println("变更选中棋子为" + curChess.type);
                 }
                 else
@@ -540,6 +601,8 @@ public class pvp extends JFrame{
     }
     private void move(chesspiece c,Point p,undoUnit u)     //移动操作一次
     {
+        str = c.type+"移动到"+(p.x1/100+1)+","+(p.y1/100)+"\n";
+        jta.append(str);
         if (p.chess == null)
         {
             u.movechess = c;
@@ -564,6 +627,16 @@ public class pvp extends JFrame{
             p.chess = c;
         }
         cnt++;                   //回合转换
+        if(cnt%2==0)
+        {
+            str = "红色方下棋：\n";
+            jta.append(str);
+        }
+        else
+        {
+            str = "黑色方下棋：\n";
+            jta.append(str);
+        }
     }
     private String winnable()   //返回胜利方 若没有结束游戏则返回"无"
     {
@@ -661,78 +734,7 @@ public class pvp extends JFrame{
         head = u;
         undo.setEnabled(true);
     }
-    final boolean fa = false;
-    public  int MaxMinSearch(int deapth,int turn,boolean flag,int alpha,int beta)
-    {
-        undoUnit u = new undoUnit();
-        int score = 0;
-        if (turn%2 == 0)
-            score = 10000;
-        else
-            score = -10000;
-        if (winnable() == team[0] || winnable() == team[1] )
-            return eveluation(turn%2);
-        if (deapth == 0)
-        {
-            int a = eveluation(turn%2);
-            //		 System.out.print(a + "  ");
-            return a;
-        }
-        HashSet<chesspiece> redlive = new HashSet<chesspiece>(redliveChess);
-        HashSet<chesspiece> bluelive = new HashSet<chesspiece>(blueliveChess);
-        for (Iterator<chesspiece> it1 = (team[0] == team[turn])?redlive.iterator():bluelive.iterator();it1.hasNext(); )
-        {
-            chesspiece c = (chesspiece)it1.next();
-            addAvailPoint_(c);
-            HashSet<Point> availPoint = new HashSet<Point>(c.availPoint);
-            boolean fl = true;
-            for (Iterator<Point> it2 = availPoint.iterator();it2.hasNext();)
-            {
-                Point p = (Point)it2.next();
-//				System.out.println("当前点  "+c.name+"当前目标位置  （"+p.i+" "+p.j+")");
-                if (fl)
-                    if (moveable(c,p))
-                    {
-                        move(c,p,u);
-//						System.out.println("移动"+c.name+"到（"+p.i+" "+p.j+")");
-                        if (turn == 0)         //取极小值
-                        {
-                            int min = MaxMinSearch(deapth-1,(turn+1)%2,fa,alpha,beta);
-                            score = score <= min ? score : min;
-                            if (score <= beta)
-                            {
-                                beta = score;
-                                if (alpha > beta)
-                                    fl = false;
-                            }
-                        }
-                        else                   //取极大值
-                        {
-                            int max = MaxMinSearch(deapth-1,(turn+1)%2,fa,alpha,beta);
-                            score = score >= max ? score : max;
-                            //						System.out.print("score:"+score + "  ");
-                            if (score >= alpha)
-                            {
-                                alpha = score;
-                                if (alpha > beta)
-                                    fl = false;
-                            }
-                            if (flag == true)
-                            {
-                                if (score == max)
-                                {
-                                    AIchess = c;
-                                    AIpoint = p;
-                                }
-                            }
-                        }
-                        undo(u);
-//						System.out.println("撤销移动"+c.name+"到（"+p.i+" "+p.j+")");
-                    }
-            }
-        }
-        return score;
-    }
+
     //窗体的鼠标事件监听器
     public class FrameMouseListener implements MouseListener{
 

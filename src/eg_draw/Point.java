@@ -1,6 +1,8 @@
 package eg_draw;
 
-    class Point{
+import java.io.Serializable;
+
+class Point implements Serializable {
         public static final int X_BORDER = 150;
         public static final int Y_BORDER = 5;
         public int x1,x2,y1,y2;

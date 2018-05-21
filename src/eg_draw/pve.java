@@ -1,10 +1,15 @@
 package eg_draw;
 import java.awt.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
 import java.util.*;
 import java.awt.event.*;
 import java.io.IOException;
 import javax.swing.*;
 import javax.imageio.*;
+import java.io.*;
+import java.io.File;
 public class pve extends JFrame{
     static final String team[] = {"红","蓝"};
     static final String trap[] = {"红陷阱","蓝陷阱"};
@@ -21,9 +26,11 @@ public class pve extends JFrame{
     public int cnt;                   //记录当前走棋的队伍
     public  String str;
     private String curmode;       //当前游戏模式
+    FileDialog sv,op;
+
     JMenuBar menuBar;
     JMenu menu,pvc,help;
-    JMenuItem undo,quit,easy,normal,hard,explain,about;
+    JMenuItem undo,quit,easy,normal,hard,explain,about,save,open;
     JLabel jb,jc,jd;
     Point point[][] = new Point[11][9];    //棋盘为9*7， 横纵各多加2为方便判定是否出界
     chesspiece chess[] = new chesspiece[16];
@@ -49,6 +56,34 @@ public class pve extends JFrame{
         }
         public void actionPerformed(ActionEvent e) {
             // TODO Auto-generated method stub
+            if (e.getSource() == open) {
+
+                clearchess();
+                switchListener = 0;
+                curmode = mode[1];
+                difficulty = 3;
+
+                op.setVisible(true);
+                try{
+                    File f1 = new File(op.getDirectory(),op.getFile());
+                    ObjectInputStream oin = new ObjectInputStream(new FileInputStream(f1));
+
+                    System.out.println("a");
+
+
+                    Datasave newPerson = (Datasave) oin.readObject(); // 强制转换到Person类型
+
+                    System.out.println(newPerson.chess[6].attack);
+
+
+
+                    oin.close();
+
+                }catch(Exception e1){
+
+                }
+
+            }
             if (e.getSource() == easy)
             {
                 clearchess();
@@ -75,24 +110,6 @@ public class pve extends JFrame{
             }
             if (e.getSource() == undo)
             {
-                if (curmode == mode[1])
-                {
-                    undo(head);
-                    head.movechess.setLocation(head.frompoint.y1+50-(head.movechess.ima.getIconWidth())/2,
-                            head.frompoint.x1+50-(head.movechess.ima.getIconHeight())/2);
-                    jd.setVisible(false);
-                    if (head.deadchess != null)
-                    {
-                        head.deadchess.setLocation(head.topoint.y1+50-(head.deadchess.ima.getIconWidth())/2,
-                                head.topoint.x1+50-(head.deadchess.ima.getIconHeight())/2);
-                        tmp.getContentPane().add(head.deadchess);
-                        head.deadchess.setVisible(true);
-                    }
-                    jc.setLocation(head.frompoint.y1, head.frompoint.x1);
-                    curChess = head.movechess;
-                    head = head.next;
-                    undo.setEnabled(false);
-                }
                 if (curmode == mode[0])
                 {
                     undo(head);
@@ -123,6 +140,23 @@ public class pve extends JFrame{
                     undo.setEnabled(false);
                 }
             }
+            if (e.getSource() == save){
+                sv.setVisible(true);
+                try{
+                    File f1 = new File(sv.getDirectory(),sv.getFile());
+                    ObjectOutputStream oout = new ObjectOutputStream(new FileOutputStream(f1));
+
+                    Datasave person = new Datasave(chess);
+
+                    oout.writeObject(person);
+
+                    oout.close();
+                }catch(Exception e1){
+
+                }
+
+
+            }
             if (e.getSource() == quit)
             {
                 tmp.dispose();
@@ -148,10 +182,12 @@ public class pve extends JFrame{
 
         this.setLayout(null);
         backgroundInit();
+        op = new FileDialog(this,"打开",FileDialog.LOAD);
+        sv = new FileDialog(this, "保存", FileDialog.SAVE);
 
 //		chessInit();
         switchListener = 1;
-        this.setSize(996+550, 993);
+        this.setSize(996, 993);
         ((JPanel)this.getContentPane()).setOpaque(false);  //设置内容面板背景透明
         this.addMouseListener(new FrameMouseListener(this));
         this.setVisible(true);
@@ -323,7 +359,13 @@ public class pve extends JFrame{
         undo.addActionListener(new menuListener(this));
         undo.setEnabled(false);
         menu.add(undo);
-        quit = new JMenuItem("退出");
+        open = new JMenuItem("打开保存的对局");
+        open.addActionListener((new menuListener(this)));
+        menu.add(open);
+        save = new JMenuItem("保存对局");
+        save.addActionListener((new menuListener(this)));
+        menu.add(save);
+        quit = new JMenuItem("返回主菜单");
         quit.addActionListener(new menuListener(this));
         menu.add(quit);
         easy = new JMenuItem("简单");
@@ -344,22 +386,6 @@ public class pve extends JFrame{
         about.addActionListener(new menuListener(this));
         help.add(about);
 
-        playingnow =new JLabel("正在进行人机对战",JLabel.CENTER);
-        playingnow.setFont(new Font("PingFang SC", 1, 20));
-        playingnow.setBounds(1046,50,444,50);
-        this.getContentPane().add(playingnow);
-
-        jta =new JTextArea( str,45,30);
-        JScrollPane scroll = new JScrollPane(jta);
-        scroll.setHorizontalScrollBarPolicy(
-                JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-        scroll.setVerticalScrollBarPolicy(
-                JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-        jta.setEnabled(false);
-        panelOutput = new JPanel();
-        this.getContentPane().add(panelOutput);
-        panelOutput.setBounds(1046,100,444,893);
-        panelOutput.add(scroll);
 
 
 
@@ -397,6 +423,8 @@ public class pve extends JFrame{
                     curChess = point[i][j].chess;
                     jc.setLocation(curChess.point.y1, curChess.point.x1);
                     jc.setVisible(true);
+                    str = "当前选中棋子为" + curChess.type;
+                    jta.append(str+'\n');
 //						System.out.println("当前选中棋子为" + curChess.type);
                 }
                 else
@@ -411,6 +439,8 @@ public class pve extends JFrame{
                     curChess = point[i][j].chess;
                     jc.setLocation(curChess.point.y1, curChess.point.x1);
                     jc.setVisible(true);
+                    str = "变更选中棋子为" + curChess.type;
+                    jta.append(str+'\n');
 //						System.out.println("变更选中棋子为" + curChess.type);
                 }
                 else
