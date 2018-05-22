@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a5f2f0-9a4e-434e-83da-b0b25fe79c23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eg_draw/Datasave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/关于.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/关于.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/开始游戏.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/开始游戏.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/狗-红.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/狗-红.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/狗-蓝.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/狗-蓝.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/狮-红.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/狮-红.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/狮-蓝.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/狮-蓝.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/狼-红.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/狼-红.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/狼-蓝.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/狼-蓝.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/猫-红.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/猫-红.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/猫-蓝.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/猫-蓝.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/红色方胜利.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/红色方胜利.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/背景.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/背景.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/蓝色方胜利.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/蓝色方胜利.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/虎-红.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/虎-红.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/虎-蓝.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/虎-蓝.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/象-红.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/象-红.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/象-蓝.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/象-蓝.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/豹-修.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/豹-红.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/豹-红.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/豹-蓝.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/豹-蓝.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/返回.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/鼠-红.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/鼠-红.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/鼠-蓝.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/鼠-蓝.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$AImove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$AImove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$FrameMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$FrameMouseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$menuListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$menuListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$undoUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic$undoUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/DrawBasic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/chesspiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/chesspiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve$AImove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve$AImove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve$FrameMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve$FrameMouseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve$menuListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve$menuListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve$undoUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve$undoUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp$FrameMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp$FrameMouseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp$menuListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp$menuListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp$undoUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp$undoUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CrazyAnimalChess/eg_draw/pvp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg_draw/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg_draw/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg_draw/chesspiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/chesspiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg_draw/pve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/pve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eg_draw/pvp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eg_draw/pvp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawBasic.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DrawBasic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7290">
-              <caret line="499" column="23" selection-start-line="494" selection-start-column="7" selection-end-line="499" selection-end-column="23" />
+            <state relative-caret-position="5535">
+              <caret line="372" column="34" selection-start-line="372" selection-start-column="34" selection-end-line="372" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +53,8 @@
       <file leaf-file-name="pvp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-613">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="915">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lan.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lan.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eg_draw/lan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="360">
               <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -241,8 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -423,6 +374,8 @@
       <workItem from="1526611023576" duration="5653000" />
       <workItem from="1526798548215" duration="16539000" />
       <workItem from="1526833777963" duration="179000" />
+      <workItem from="1526870623715" duration="125000" />
+      <workItem from="1526872210846" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="* 新建项目">
       <created>1524049050824</created>
@@ -435,14 +388,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46170000" />
+    <option name="totallyTimeSpent" value="46328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32865733" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -454,7 +406,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1404762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1404762" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -464,6 +416,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32865733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -828,16 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7290">
-          <caret line="499" column="23" selection-start-line="494" selection-start-column="7" selection-end-line="499" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eg_draw/pve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5295">
@@ -850,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-613">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="915">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -860,8 +803,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eg_draw/lan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="360">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5535">
+          <caret line="372" column="34" selection-start-line="372" selection-start-column="34" selection-end-line="372" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
