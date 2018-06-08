@@ -1,6 +1,4 @@
 package eg_draw;
-import client.ui.GameFrame;
-import server.ui.ServerFrame;
 
 import javax.swing.*;
 import java.awt.*;
