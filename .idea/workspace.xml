@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a5f2f0-9a4e-434e-83da-b0b25fe79c23" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dou_shou_qi_board.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/instructions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_leopard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_lion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_tiger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/black_wolf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_leopard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_lion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_mouse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_tiger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pieces/red_wolf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/Datasave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cac/Datasave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cac/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cac/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/chesspiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cac/chesspiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/lan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cac/lan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/pve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cac/pve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/pvp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cac/pvp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eg_draw/rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cac/rule.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,52 +41,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/MainPage.java">
+        <entry file="file://$PROJECT_DIR$/src/cac/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NameListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/listener/NameListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawBasic.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8070">
-              <caret line="544" column="54" selection-start-line="544" selection-start-column="54" selection-end-line="544" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/rule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pve.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/pve.java">
+        <entry file="file://$PROJECT_DIR$/src/cac/pve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5295">
-              <caret line="366" column="23" selection-start-line="366" selection-start-column="23" selection-end-line="366" selection-end-column="23" />
+            <state relative-caret-position="5400">
+              <caret line="364" column="23" selection-start-line="364" selection-start-column="23" selection-end-line="364" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,7 +65,7 @@
         </entry>
       </file>
       <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/Point.java">
+        <entry file="file://$PROJECT_DIR$/src/cac/Point.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
@@ -78,10 +74,10 @@
         </entry>
       </file>
       <file leaf-file-name="pvp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
+        <entry file="file://$PROJECT_DIR$/src/cac/pvp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="-9821">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,29 +85,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Datasave.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/Datasave.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="35" />
-            </state>
-          </provider>
+      <file leaf-file-name="虎-红.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/icon/虎-红.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="chesspiece.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/chesspiece.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-            </state>
-          </provider>
+      <file leaf-file-name="红色方胜利.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/icon/红色方胜利.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="lan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eg_draw/lan.java">
+        <entry file="file://$PROJECT_DIR$/src/cac/lan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="405">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,10 +199,10 @@
         <option value="$PROJECT_DIR$/src/eg_draw/Datasave.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/Point.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/chesspiece.java" />
-        <option value="$PROJECT_DIR$/src/eg_draw/MainPage.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/DrawBasic.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/pve.java" />
         <option value="$PROJECT_DIR$/src/eg_draw/pvp.java" />
+        <option value="$PROJECT_DIR$/src/eg_draw/MainPage.java" />
       </list>
     </option>
   </component>
@@ -251,6 +239,12 @@
               <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CrazyAnimalChess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CrazyAnimalChess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cac" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -280,12 +274,12 @@
   </component>
   <component name="RunManager" selected="Application.MainPage">
     <configuration name="DrawBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eg_draw.DrawBasic" />
+      <option name="MAIN_CLASS_NAME" value="cac.DrawBasic" />
       <module name="CrazyAnimalChess" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eg_draw.*" />
+          <option name="PATTERN" value="cac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,12 +290,12 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="MainPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eg_draw.MainPage" />
+      <option name="MAIN_CLASS_NAME" value="cac.MainPage" />
       <module name="CrazyAnimalChess" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eg_draw.*" />
+          <option name="PATTERN" value="cac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,7 +412,7 @@
       <workItem from="1526957206490" duration="117000" />
       <workItem from="1527164149100" duration="691000" />
       <workItem from="1527592845736" duration="45000" />
-      <workItem from="1528419642895" duration="91000" />
+      <workItem from="1528419642895" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="* 新建项目">
       <created>1524049050824</created>
@@ -431,26 +425,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47272000" />
+    <option name="totallyTimeSpent" value="47532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32865733" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32865733" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2725451" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2725451" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1404762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1404762" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -482,37 +477,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5190">
-          <caret line="356" column="22" lean-forward="true" selection-start-line="356" selection-start-column="22" selection-end-line="356" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/net/PlayChess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/net/Resolve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="437" selection-start-line="437" selection-end-line="437" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/net/Receive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/ui/GamePanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
@@ -730,68 +694,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/rule.java">
+    <entry file="file://$PROJECT_DIR$/src/cac/rule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/pvp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/pve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5295">
-          <caret line="366" column="23" selection-start-line="366" selection-start-column="23" selection-end-line="366" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/lan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/Datasave.java">
+    <entry file="file://$PROJECT_DIR$/src/cac/Datasave.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/chesspiece.java">
+    <entry file="file://$PROJECT_DIR$/src/cac/chesspiece.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/Point.java">
+    <entry file="file://$PROJECT_DIR$/src/cac/DrawBasic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        <state relative-caret-position="7995">
+          <caret line="539" column="54" selection-start-line="539" selection-start-column="54" selection-end-line="539" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -800,20 +727,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/listener/NameListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="73" lean-forward="true" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+        <state relative-caret-position="225">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eg_draw/DrawBasic.java">
+    <entry file="file://$PROJECT_DIR$/src/cac/lan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8070">
-          <caret line="544" column="54" selection-start-line="544" selection-start-column="54" selection-end-line="544" selection-end-column="54" />
+        <state relative-caret-position="405">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cac/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cac/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cac/pve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5400">
+          <caret line="364" column="23" selection-start-line="364" selection-start-column="23" selection-end-line="364" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cac/pvp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9821">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/dou_shou_qi_board.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/instructions.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icon/虎-红.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icon/红色方胜利.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
